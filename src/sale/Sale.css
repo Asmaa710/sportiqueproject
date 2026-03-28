@@ -1,0 +1,70 @@
+.onSale{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+/* .container{
+
+} */
+.card{
+    max-width: 85%;
+    height: 20vh;
+    position: relative;
+    box-shadow: 2px 2px 2px rgb(211, 210, 210);
+    overflow: hidden;
+
+}
+
+.discount h4{
+    width: auto;
+    height: auto;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+}
+.img-container{
+    background-color: var(--mainColor);
+    height: 200px;
+    overflow: hidden;
+
+}
+.img-container img{
+    /* width: 90%; */
+    object-fit: contain;
+}
+
+.info{
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.info button{
+    background-color: var(--greenColor);
+    padding:6px 5px 6px 5px;
+    color: aliceblue;
+    border-radius:18px ;
+    width: 45%;
+    border: none;
+}
+.viewBtn{
+    border: 2px solid rgb(161, 160, 160);
+    border-radius: 18px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

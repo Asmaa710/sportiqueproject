@@ -1,0 +1,103 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    background-image: url("/images/back (2).png");
+    
+}
+.main .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .main-content{
+min-width: 29%;
+min-height: 70%;
+background-color: rgb(250, 250, 250);
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 15px;
+box-shadow: 0.5px 0.5px 3px rgb(221, 221, 221);
+padding: 10px;
+/* padding: 15px; */
+
+}
+.main .main-content .Confirm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+.main .main-content .Confirm .Confirm-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10%;
+
+}
+
+.forgetWord h2{
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column; 
+}
+input::placeholder{
+    padding: 10px;
+    color: rgb(172, 171, 171);
+}
+.inputs label{
+    margin-bottom: 5px;
+}
+.inputs input{
+    font-weight: bold;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 7%;
+    border: white 1px solid;
+}
+.inputs .pass{
+    display: flex;
+    justify-content: space-between;
+}
+.inputs .pass a{
+    text-decoration: none;
+    color: blue;
+}
+input[type='checkbox']{
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+
+}
+.remember-checkbox{
+    display: flex;
+    gap: 5px;
+}
+.ConfirmBtn{
+    padding:5px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--greenColor);
+    border-radius: 8px;
+    border: var(--greenColor) 1px solid;
+    margin-bottom: 3%;
+    align-self: center;
+    padding: 7px 30px 7px 30px;
+}
+.Confirm:hover{
+    background-color: rgb(1, 159, 1);
+}
+.error {
+    color: red;
+    font-size: 0.9rem;
+    /* margin-top: 2px; */
+}
